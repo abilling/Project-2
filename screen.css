@@ -12,14 +12,16 @@ html {
   line-height: 1.22em; /* 22px / 18px*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em;
-  /* background-image: url(redbaseline.odg); */
+  background-image: url(redbaseline.odg); */
 }
+/* Heading css.*/
 h1, h2, h3 {
   font-size: 1.166em;  /* 21 / 18px */
   line-height: 1em;
   padding: 0.5em;
   font-weight: bold;
 }
+/* Dog Image css */
 img {
   display: block;
   transform: rotate(90deg);
@@ -38,6 +40,7 @@ img {
   flex-flow: row;
   padding: 1em;
 }
+/*Media screen areas, px here only */
 @media screen and (min-width: 600px) {
   img {
     display: block;
