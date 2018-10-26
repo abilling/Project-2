@@ -17,7 +17,7 @@ html {
 h1, h2, h3 {
   font-size: 1.166em;  /* 21 / 18px */
   line-height: 1em;
-  padding: .5em;
+  padding: 0 .5em;
   font-weight: bold;
 }
 img {
@@ -33,21 +33,21 @@ img {
   flex-flow: row-reverse;
   padding: 1em;
 }
-.picture{
+.picture {
   display: flex;
   flex-flow: row;
   padding: 1em;
 }
-@media screen and (min-width: 600px){
-  img{
+@media screen and (min-width: 600px) {
+  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     align-items: baseline;
   }
 }
-@media screen and (min-width: 1000px){
-  h1, h2, h2{
+@media screen and (min-width: 1000px) {
+  h1, h2, h2 {
     text-align: center;
     justify-content: center;
   }
