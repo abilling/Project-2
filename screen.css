@@ -7,3 +7,41 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html {
+  font-size: 1.125em; /* 18px */
+  line-height: 1.22em; /* 22px / 18px*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 1em;
+  /* background-image: url(redbaseline.odg); */
+}
+h1, h2, h3 {
+  font-size: 1.166em;  /* 21 / 18px */
+  line-height: 1em;
+  padding: .5em;
+  font-weight: bold;
+}
+img {
+  display: block;
+  transform: rotate(90deg);
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.images {
+  display: flex;
+  flex-flow: column;
+}
+@media screen and (min-width: 600px){
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1000px){
+  h1, h2, h2{
+    text-align: center;
+    justify-content: center;
+  }
+}
