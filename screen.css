@@ -74,7 +74,7 @@ figcaption {
 }
 .images {
   display: grid;
-  grid-template-columns: repeat(2, ltf);
+  grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
