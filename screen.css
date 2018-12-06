@@ -13,7 +13,10 @@ html {
   line-height: 1.22em; /* 22px / 18px*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em; /* 18 px*/
+  overflow: auto;
+  background: #99ccff;
   background-color: #99ccff;
+
   /*  background-image: url(redbaseline.jpeg); */
 }
 /* Heading css.*/
@@ -52,7 +55,7 @@ height: 100%;
   overflow: auto;
   padding: .50em; /* 9 px/ 18px */
 }
-.picture {
+.image {
   display: grid;
   grid-row: 1/2;
   width: 40%;
@@ -76,7 +79,7 @@ height: 100%;
 }
 }
 @media all and (min-width: 1000px) {
-.picture li {
+.image li {
   width: 250px;
   padding: 0 0 0 0;
   height: 250px;
