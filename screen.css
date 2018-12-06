@@ -9,14 +9,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 html {
   display: grid;
+  background-color: #99ccff;
   font-size: 1.122em; /* 22 /18px */
   line-height: 1.22em; /* 22px / 18px*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em; /* 18 px*/
-  overflow: auto;
-  background: #99ccff;
-  background-color: #99ccff;
-
   /*  background-image: url(redbaseline.jpeg); */
 }
 /* Heading css.*/
