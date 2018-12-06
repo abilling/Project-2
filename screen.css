@@ -74,7 +74,7 @@ figcaption {
   }
   .images {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -86,8 +86,7 @@ figcaption {
   }
   .images li.focus {
     background: black;
-    grid-column: 1 / 2;
-    grid-row: 1 /3;
+    grid-row: 1 /2;
   }
   figcaption {
     clear: both;
