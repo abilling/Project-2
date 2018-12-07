@@ -71,7 +71,22 @@ height: 100%;
   height: 40%;
   background: #666699;
   overflow: auto;
-  padding: 1em; /*8px */
+  padding: 1em; /*18px */
+}
+.nav a,
+#navigation h2 a {
+  background: #0066ff;
+  border-radius: 6em; /* 108 px /18 px*/
+  color: white;
+  display: block;
+  line-height: 1;
+  margin: .25em; /* 4.5 px /18 px */
+  padding: .25em /* 4.5/18px */
+  text-decoration: none;
+}
+.nav a:hover,
+a#menu_button:focus {
+  background: #0033cc;
 }
 .js .nav {
   display: none;
